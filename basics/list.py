@@ -1,0 +1,9 @@
+num=[1,2,3,4,5]
+print(num)
+letter=['a','b','c','d']
+print(letter)
+stg=['sanjog',123,3.14,'gautam']
+print(stg)
+mat=[[1,2,3],['a','b'],[7,8,9]]
+print(mat)
+print(stg[2])

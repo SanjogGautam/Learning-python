@@ -1,0 +1,9 @@
+num=2+5j
+print(type(num))
+print(num.imag)
+#conversion
+x='123'
+y=int(x)
+print(type(y))
+print(type(x))
+z=complex(x)
