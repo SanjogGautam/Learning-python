@@ -18,3 +18,6 @@ eg.find('it')
 #lower() and upper()
 eg="sanjog"
 print(eg.upper())
+eg="sanjog"
+x="~".join(eg)
+print(x)

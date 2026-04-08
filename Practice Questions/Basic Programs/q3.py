@@ -6,7 +6,7 @@ PI=3.14
 def area (r):
     return PI*(r**2)
 def vowel_consonant(a):
-    vowel='aeiou'
+    vowel='aeiouAEIOU'
     if a in vowel:
         print(f"{a} is a vowel")
     else:
