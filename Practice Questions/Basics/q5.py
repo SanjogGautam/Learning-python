@@ -31,7 +31,3 @@ print(f"Total Marks= {tm}")
 print(f"Percentage= {pc}")
 print(f"Total Marks= {div}")
 print("FAIL") if pc<40 else print("PASS")
-
-
-
-
