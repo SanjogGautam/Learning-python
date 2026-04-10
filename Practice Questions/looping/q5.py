@@ -24,9 +24,20 @@ while True:
                         continue
                 print()
         case 2:
-            pass
+            rows = 5
+            for i in range(1, rows + 1):
+                # Step 1: Print leading spaces
+                print(" " * (rows - i), end="")
+                # Step 2: Print stars (Odd numbers: 1, 3, 5, 7, 9)
+                print("*" * (2 * i - 1))#for this i have taken help of gemini
         case 3:
-            pass
+            for i in range(1,6):
+                for j in range(1,i+1):
+                    if j % 2== 0:
+                        print("0",end="")
+                    else:
+                        print("1",end="")
+                print()
         case 4:
             print("Exitting")
             break
