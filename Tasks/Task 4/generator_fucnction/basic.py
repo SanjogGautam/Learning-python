@@ -30,4 +30,20 @@ def sanjog():
 g = sanjog()
 print(next(g))           # Printing: prints "What is your name?"
 g.send("Sanjog") # Injects name, prints "how old are you?"
-print(g.send(20))  # Injects age, prints "Sanjog is 20 years old."
+try:
+    g.send(20)# we don't have any more yield statements, so this will raise a StopIteration exception so we need to catch it to avoid crashing the program
+except StopIteration:
+    print("\n--- The generator has finished its job ---")
+#close() method is used to stop the generator and raise a StopIteration exception. it is used when we want to stop the generator before it has finished its execution.
+def count_up_to(n):
+    count = 1
+    while count <= n:
+        yield count
+        count += 1
+counter = count_up_to(5)
+print(next(counter))  # Output: 1
+counter.close()  # Stop the generator
+try:
+    print(next(counter))  # This will raise StopIteration because the generator is closed
+except StopIteration:
+    print("The generator has been closed.")
