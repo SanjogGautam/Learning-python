@@ -10,3 +10,4 @@ print(odd)
 #sorted()-it is used to sort a custom dataformat
 sanjog=[("Sanjog",20),("Sarin",21),("Helish",22)]
 new=sroted(sanjog,key= lambda x: len(x))#IT sorts according to the length of the string
+

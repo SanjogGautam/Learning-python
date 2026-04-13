@@ -27,3 +27,4 @@ start = time.perf_counter()
 result_slow = fibo_slow(n)
 end = time.perf_counter()
 print(f"Slow Result: {result_slow} | Time: {end - start:.8f}s")
+
