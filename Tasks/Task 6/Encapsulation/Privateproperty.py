@@ -20,3 +20,11 @@ s1.info()
 #shows an error since we can't access private outside of the class print(s1.__age)
 #but we can access it using name mangling
 print(s1._sanjog__age)
+#we can't access private method outside of the class and also by the child class 
+class child(sanjog):
+    def __init__(self,name,age):
+        super().__init__(name,age)
+    def access_private_method(self):
+        return self.__sum_of(10,20)
+c1=child("Child",10)
+print(c1.access_private_method())#shows an error since we can't access private method in child class
