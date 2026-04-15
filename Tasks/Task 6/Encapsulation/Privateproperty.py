@@ -8,7 +8,7 @@ class sanjog:
         self.__age=age
     def get_age(self):
         return self.__age
-    def set_age(self):
+    def set_age(self, age):# age is the parameter that we pass to the method to set the value of the private variable __age 
         self.__age=age
     @staticmethod
     def __sum_of(a,b):#it is also a private method/function
