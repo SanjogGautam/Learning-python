@@ -1,5 +1,4 @@
 # i have to perform enum class opertions 
-
 from enum import Enum,unique
 @unique#this prevents two string to have same integer value 
 class status(Enum):
@@ -8,7 +7,8 @@ class status(Enum):
     DONE=3
     ARCHIVED=4
     #HELLO=1 this throws an error 
-
+# functional syntax
+Color = Enum('Color', [('RED', 1), ('GREEN', 2), ('BLUE', 3)])
 #Operations done 
 #accessing names and values
 current=status.DOING
