@@ -7,3 +7,6 @@ array1=np.array([1,2,3])
 array1=array1*2
 print(array1)
 print(type(array1))
+#creating array from tuple
+array2=np.array((1,2,3,4))
+print(array2)
