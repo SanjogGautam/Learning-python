@@ -12,3 +12,4 @@ print(full)
 # c. Dropping irrelevant columns
 col=df.drop(columns=["Legendary","No"])#it drops the "Legendary" and "No" columns from the dataframe and creates a new dataframe called "col"
 print(col)
+# d. we can interpolate missing values using the interpolate() method, which fills in the missing values based on the values of the surrounding data points.
