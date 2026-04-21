@@ -7,3 +7,4 @@ read = pd.read_csv("data.csv")
 # print(read.shape)#it gives the number of rows and columns in the dataset
 # print(read.info())#it gives the summary of the dataset including the number of non-null values in each column and the data types of each column
 # print(read.describe())#it gives the statistical summary of the dataset including the count, mean, standard deviation, minimum, and maximum values for each numerical column in the dataset
+print(read.count())#it gives the number of non-null values in each column of the dataset
