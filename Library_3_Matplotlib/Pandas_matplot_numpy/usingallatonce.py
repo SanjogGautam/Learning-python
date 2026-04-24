@@ -11,5 +11,5 @@ plt.xlabel("Types of the pokemons")
 plt.xticks(rotation=30)
 plt.ylabel("Counts of Pokemons")
 plt.legend(title="Types of Pokemons",fontsize=12,shadow=True)
-plt.tight_layout()#It manages teh congestion
+plt.tight_layout()#It manages the congestion
 plt.show()
